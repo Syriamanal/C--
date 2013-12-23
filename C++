@@ -16,8 +16,9 @@ int main ()
   result = a + b;
 
   // print out the result:
- cout << "You have" <<endl << result << "in your bank" <<endl;
- cout << "Pleas go home now!";
+ cout << "You have" <<endl << result << endl << "in your bank" <<endl;
+ cout << "Pleas go home now!" << endl;
+ 
 
   // terminate the program:
   return 0;
