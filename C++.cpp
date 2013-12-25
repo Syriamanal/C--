@@ -9,7 +9,7 @@ int age;
 
 cout << "Enter Your age..." << endl;
 cin >> age;
-cout << "You have enterd \n" << age << endl;
+cout << "You have entered  " << age << endl;
 
 
 if(age == 18)
