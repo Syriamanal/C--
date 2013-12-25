@@ -8,24 +8,29 @@ int main()
 int age;
 
 cout << "Enter Your age..." << endl;
+    cout << endl;
 cin >> age;
 cout << "You have entered  " << age << endl;
 
 
 if(age == 18)
 {
-cout << "You are a teenager" << endl;
+    cout << endl;
+    cout << "You are a teenager" << endl;
 }
 else if(age == 17)
 {
-cout << "One more year to be 18!" << endl;
+    cout << endl;
+    cout << "One more year to be 18!" << endl;
 }
 else if(age == 14)
 {
-cout << "You are in high school!" << endl;
+    cout << endl;
+    cout << "You are in high school!" << endl;
 }
 else
 {
-cout << "Your to young!" << endl;
+    cout << endl;
+    cout << "Your to young!" << endl;
 }
 }
